@@ -1,4 +1,11 @@
 {
+  "homepage": "https://github.com/redachahdi/alx-react",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    ...
+  },
+  ...
   "short_name": "React App",
   "name": "Create React App Sample",
   "icons": [
@@ -23,3 +30,4 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
+
